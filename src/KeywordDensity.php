@@ -1,4 +1,9 @@
 <?php
+
+
+namespace BloggerFly\KeywordDensity;
+
+use BloggerFly\Html2Text
 /*
  ======================================================================
  KeywordDensityChecker v1.1
@@ -32,7 +37,7 @@
 * Simple yet powerfull PHP class to get the keyword density of
 * a website.
 */
-class KD {
+class KeywordDensity {
 // -------------------------------------------------------------------
 // @params
 // -------------------------------------------------------------------
@@ -61,7 +66,7 @@ class KD {
       // -------------------------------------------------------------------
       // External classes
       // -------------------------------------------------------------------
-      require_once('ext/class.html2text.inc');
+//   require_once('ext/class.html2text.inc');
       // -------------------------------------------------------------------
       // Save google result page to string using curl
       // -------------------------------------------------------------------
